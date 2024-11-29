@@ -8,7 +8,7 @@ const app = express();
 
 // Habilitar CORS
 app.use(cors({
-  origin: 'https://connect-pet-frontend.onrender.com', // Substitua pelo domínio do frontend
+  origin: 'https://p-connect-pet-frontend.onrender.com', // Substitua pelo domínio do frontend
   credentials: true,
 }));
 
